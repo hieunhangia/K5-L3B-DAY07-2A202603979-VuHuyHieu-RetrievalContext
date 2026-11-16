@@ -1,0 +1,748 @@
+{
+  "dev": {
+    "method": "Lexical Retrieval (BM25)",
+    "split": "dev",
+    "n": 15,
+    "hit1": 12,
+    "hit1_rate": 0.8,
+    "hit3": 15,
+    "hit3_rate": 1.0,
+    "context_evidence_rate": 0.0667,
+    "context_hits": 1,
+    "median_latency_ms": 0.36,
+    "mean_latency_ms": 0.39,
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Theo quy định của VinUniversity, trường hợp nào sinh viên hoàn thành hai chương trình chuyên ngành nhưng không được cấp bằng kép?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "latency_ms": 0.59,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p4_c003",
+            "score": 29.1508,
+            "page": 4,
+            "text_snippet": "Chuyên ngành hẹp\n(phụ)\nGồm một nhóm các học phần có cấu trúc tập trung vào một chuyên\nngành học cụ thể, giúp sinh viên p"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p21_c003",
+            "score": 19.4227,
+            "page": 21,
+            "text_snippet": "b) Sinh viên đã đăng ký học cùng lúc hai chương trình nhưng hết thời gian cho\nphép học tại trường mà chưa đủ điều kiện t"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p12_c002",
+            "score": 18.7519,
+            "page": 12,
+            "text_snippet": "Sinh viên nhập học phải nộp đầy đủ giấy tờ theo quy định của Quy chế tuyển\nsinh đại học hệ chính quy hiện hành của Trườn"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p4_c003"
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Ngôn ngữ chính thức được sử dụng trong giảng dạy và đánh giá tại VinUniversity là gì?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.32,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p7_c001",
+            "score": 25.0573,
+            "page": 7,
+            "text_snippet": "7\n\nCHƯƠNG I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\nQuy chế này quy định cụ thể về tổ chức"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p7_c002",
+            "score": 23.971,
+            "page": 7,
+            "text_snippet": "Viện Khoa học và Giáo dục Khai phóng có thể dạy bằng tiếng Việt và sử dụng\ntài liệu tiếng Việt cho các học phần bắt buộc"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p31_c001",
+            "score": 14.5324,
+            "page": 31,
+            "text_snippet": "31\n\ne) Kết quả của các học phần như Giáo dục quốc phòng và Giáo dục thể chất\nkhông được tính vào điểm trung bình học tập"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p7_c002"
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Để nắm vững kiến thức của một tín chỉ lý thuyết hoặc thực hành, sinh viên cần bỏ ra bao nhiêu thời gian tự học cá nhân?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.44,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p9_c001",
+            "score": 26.0325,
+            "page": 9,
+            "text_snippet": "9\n\nđồng, hoặc bệnh viện); 45 - 60 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt\nnghiệp hoặc chuyên đề thực tậ"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p8_c004",
+            "score": 20.5176,
+            "page": 8,
+            "text_snippet": "Một\ntín chỉ được tính tương đương với 50 giờ học định mức của sinh viên, bao gồm giờ học\nđược giảng dạy (giờ học lý thuy"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p8_c002",
+            "score": 19.7068,
+            "page": 8,
+            "text_snippet": "Đề cương chi tiết học phần bao gồm: số lượng tín chỉ, điều kiện tiên quyết\n(nếu có), nội dung lý thuyết và thực hành, cá"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p8_c004"
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Thời gian thiết kế tiêu chuẩn của chương trình đại học 4 năm và đại học 6 năm yêu cầu khối lượng tối thiểu bao nhiêu tín chỉ?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.4,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p11_c002",
+            "score": 27.5262,
+            "page": 11,
+            "text_snippet": "1. Trường tổ chức đào tạo theo khóa học, năm học và học kỳ. a) Khóa học: là thời gian tiêu chuẩn được thiết kế để sinh v"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p14_c001",
+            "score": 20.7461,
+            "page": 14,
+            "text_snippet": "14\n\n4. Kỳ học mùa Hè (Kỳ học Hè): tối đa 9 tín chỉ, khối lượng học tập tối thiểu\nkhông bắt buộc. Khối lượng học sẽ chỉ đ"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p15_c003",
+            "score": 20.429,
+            "page": 15,
+            "text_snippet": "d) Các Viện hoặc đơn vị giảng dạy có thể quy định số tín chỉ tối đa có thể chuyển\nđổi trong quá trình học (bao gồm tín c"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p14_c001"
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Tổng số tín chỉ tối đa mà sinh viên được phép rút khỏi hồ sơ trong toàn bộ khóa học là bao nhiêu?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.33,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p15_c001",
+            "score": 24.8586,
+            "page": 15,
+            "text_snippet": "15\n\nNếu học sinh rút tên trước “Ngày thôi học” cho mỗi học kỳ, điểm W sẽ không\nđược ghi trên bảng điểm. c) Chính sách gi"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p14_c003",
+            "score": 19.365,
+            "page": 14,
+            "text_snippet": "Những thay\nđổi thực hiện trong giai đoạn này sẽ không được ghi vào hồ sơ học tập của sinh viên. 3. Ngoài thời hạn quy đị"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p14_c004",
+            "score": 16.9727,
+            "page": 14,
+            "text_snippet": "b) Được phép rút khỏi khóa học sau thời gian bỏ học và phải trước khi học xong\nkhông quá 30% thời lượng học của khóa học"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p14_c004"
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Khi sinh viên không đạt (bị điểm F) ở một môn học bắt buộc thì nhà trường xử lý như thế nào?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.32,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p16_c002",
+            "score": 19.9756,
+            "page": 16,
+            "text_snippet": "Việc đánh giá sẽ\nđược thực hiện với sự hỗ trợ của các đơn vị học thuật có liên quan để so sánh các tín chỉ\nbên ngoài với"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p23_c003",
+            "score": 15.933,
+            "page": 23,
+            "text_snippet": "Sự chậm trễ hoặc vắng mặt trong các hoạt động giáo dục theo lịch trình thường\nsẽ dẫn đến việc bị giảm điểm hoặc các hình"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p19_c002",
+            "score": 15.2656,
+            "page": 19,
+            "text_snippet": "a) Thời gian học vượt quá thời gian tối đa được phép học tại\nTrường. Hoặc\nb) Sinh viên có tổng 3 (ba) lần bị cảnh báo họ"
+          }
+        ],
+        "context_ids": []
+      },
+      {
+        "id": "q07",
+        "question": "Trong Chương 2 về tổ chức đào tạo, sinh viên cần đáp ứng những tiêu chuẩn cụ thể nào để được ghi tên vào Danh sách khen thưởng của Viện trưởng vào cuối học kỳ chính?",
+        "split": "dev",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.54,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p19_c002",
+            "score": 34.1589,
+            "page": 19,
+            "text_snippet": "a) Thời gian học vượt quá thời gian tối đa được phép học tại\nTrường. Hoặc\nb) Sinh viên có tổng 3 (ba) lần bị cảnh báo họ"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p12_c003",
+            "score": 27.4303,
+            "page": 12,
+            "text_snippet": "Nếu được chấp thuận, thay đổi sẽ có hiệu lực từ học kỳ sau. 6. Trừ khi được Trường chấp thuận, sinh viên được nhận vào c"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p15_c003",
+            "score": 21.7389,
+            "page": 15,
+            "text_snippet": "d) Các Viện hoặc đơn vị giảng dạy có thể quy định số tín chỉ tối đa có thể chuyển\nđổi trong quá trình học (bao gồm tín c"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p12_c003"
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Theo Chương 2 về tổ chức đào tạo, thời điểm sớm nhất mà sinh viên đại học được phép đăng ký học chương trình thứ hai (song bằng) là khi nào?",
+        "split": "dev",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "hit1": false,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.43,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p12_c003",
+            "score": 23.397,
+            "page": 12,
+            "text_snippet": "Nếu được chấp thuận, thay đổi sẽ có hiệu lực từ học kỳ sau. 6. Trừ khi được Trường chấp thuận, sinh viên được nhận vào c"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p20_c002",
+            "score": 22.0269,
+            "page": 20,
+            "text_snippet": "Điều kiện để học cùng lúc hai chương trình\na) Ngành đào tạo chính ở chương trình thứ hai phải khác với ngành đào tạo chí"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p20_c001",
+            "score": 19.6963,
+            "page": 20,
+            "text_snippet": "20\n\nlà 3-6 tín chỉ. Luận văn phải được hoàn thiện trong hai học kì liên tục trước khi tốt\nnghiệp. Quy trình đánh giá sẽ "
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p12_c003"
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Hình thức đánh giá trực tuyến của một học phần được đóng góp tối đa bao nhiêu phần trăm vào tổng điểm trọng số?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.32,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p23_c001",
+            "score": 37.7915,
+            "page": 23,
+            "text_snippet": "23\n\nCHƯƠNG III\nKIỂM TRA, THI VÀ ĐÁNH GIÁ KẾT QUẢ HỌC TẬP\n\nĐiều 21. Đánh giá học phần\n1. Giảng viên dạy học phần có trách"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p10_c001",
+            "score": 23.3126,
+            "page": 10,
+            "text_snippet": "10\n\nd) Chính sách này không bao gồm giờ làm việc do Trợ giảng hoặc bất kỳ nhân\nviên hỗ trợ nào khác đảm nhiệm. e) Giờ Tư"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p30_c002",
+            "score": 17.1396,
+            "page": 30,
+            "text_snippet": "Theo hướng dẫn của Bộ Giáo dục và Đào tạo, loại không đạt (điểm F) tương\nứng với điểm dưới 4,0/10 (hoặc dưới 40%/100%). "
+          }
+        ],
+        "context_ids": []
+      },
+      {
+        "id": "q10",
+        "question": "Sau khi kết thúc học kỳ, nhà trường sẽ tổ chức kỳ thi chính để thi kết thúc học phần trong khoảng thời gian bao lâu?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.35,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p26_c001",
+            "score": 32.9109,
+            "page": 26,
+            "text_snippet": "26\n\n2. Lịch thi kết thúc học phần của các môn học có thi cuối kỳ sẽ được Phòng Quản\nlý Đào tạo sắp xếp để tránh các xung"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p27_c001",
+            "score": 25.2206,
+            "page": 27,
+            "text_snippet": "27\n\n6. Sinh viên vắng mặt có lý do chính đáng ở kỳ thi chính, nếu được Giám đốc\nChương trình cho phép, được dự thi ở kỳ "
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p25_c004",
+            "score": 23.6229,
+            "page": 25,
+            "text_snippet": "Trong trường hợp không có bài kiểm tra bù cuối kỳ, những sinh viên này sẽ phải\nlàm bài kiểm tra trong các học kỳ thông t"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p27_c001"
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thang điểm chữ tại VinUniversity, khoảng điểm nào được coi là điểm đỗ và điểm nào bị coi là trượt?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.28,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p27_c003",
+            "score": 20.3166,
+            "page": 27,
+            "text_snippet": "Điểm số gắn với sinh viên cụ thể sẽ không được công khai dưới bất kỳ hình\nthức nào. Tuy nhiên, số liệu thống kê ẩn danh "
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p19_c002",
+            "score": 18.3532,
+            "page": 19,
+            "text_snippet": "a) Thời gian học vượt quá thời gian tối đa được phép học tại\nTrường. Hoặc\nb) Sinh viên có tổng 3 (ba) lần bị cảnh báo họ"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p30_c002",
+            "score": 12.6721,
+            "page": 30,
+            "text_snippet": "Theo hướng dẫn của Bộ Giáo dục và Đào tạo, loại không đạt (điểm F) tương\nứng với điểm dưới 4,0/10 (hoặc dưới 40%/100%). "
+          }
+        ],
+        "context_ids": []
+      },
+      {
+        "id": "q12",
+        "question": "Sinh viên nhận điểm I (chưa hoàn thành môn học) có tối đa bao nhiêu thời gian để chuyển đổi sang điểm chính thức trước khi bị điểm F?",
+        "split": "dev",
+        "filters": null,
+        "hit1": false,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.38,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p29_c001",
+            "score": 20.1472,
+            "page": 29,
+            "text_snippet": "29\n\nbù. Quyết định cuối cùng về việc sinh viên chưa hoàn thành\ncó thể do giảng viên đưa ra; tuy nhiên, thời gian giới hạ"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p28_c002",
+            "score": 19.0435,
+            "page": 28,
+            "text_snippet": "b) Điểm tình huống: Tương tự như điểm CR/NCR, tất cả các điểm tình huống\nđều tương đương điểm 0 và không tính vào điểm t"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p29_c002",
+            "score": 18.8259,
+            "page": 29,
+            "text_snippet": "MT cũng là điểm có thể xuất hiện trên bảng\nđiểm của sinh viên cho (các) học kỳ đầu tiên của một học\nphần học qua nhiều h"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p29_c001"
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Thời hạn để sinh viên gửi phản ánh hoặc yêu cầu phúc tra điểm số sau khi có kết quả chính thức trên Canvas là bao lâu?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.36,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p31_c002",
+            "score": 30.8297,
+            "page": 31,
+            "text_snippet": "Điều 27. Phúc tra\n1. Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng\nnăm (05) ngày làm việc sa"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p29_c002",
+            "score": 19.1792,
+            "page": 29,
+            "text_snippet": "MT cũng là điểm có thể xuất hiện trên bảng\nđiểm của sinh viên cho (các) học kỳ đầu tiên của một học\nphần học qua nhiều h"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p27_c002",
+            "score": 17.5332,
+            "page": 27,
+            "text_snippet": "Điều 24. Nguyên tắc chung\n1. Giảng viên dạy học phần có đặc quyền duy nhất trong việc chấm điểm cho\nsinh viên và không c"
+          }
+        ],
+        "context_ids": []
+      },
+      {
+        "id": "q14",
+        "question": "Sinh viên có kết quả học tập toàn khóa đạt loại Xuất sắc hoặc Giỏi sẽ bị hạ một bậc tốt nghiệp nếu khối lượng học phần bị học lại, thi lại vượt quá mức tỷ lệ nào?",
+        "split": "dev",
+        "filters": null,
+        "hit1": false,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.49,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p32_c003",
+            "score": 38.5398,
+            "page": 32,
+            "text_snippet": "Hội đồng đánh giá của các Viện đào tạo gửi đề xuất các hạng giải thưởng cho\nHiệu trưởng. 3. Hạng tốt nghiệp được xác địn"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p33_c001",
+            "score": 36.687,
+            "page": 33,
+            "text_snippet": "33\n\na) Có khối lượng của các học phần phải học lại, thi lại vượt quá 5% so với tổng\nsố tín chỉ quy định cho toàn chương "
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p19_c003",
+            "score": 30.1547,
+            "page": 19,
+            "text_snippet": "Thành tích này sẽ được ghi vào bảng điểm của sinh viên. 2. Tốt nghiệp loại Xuất sắc: Sinh viên tốt nghiệp loại xuất sắc "
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p32_c003"
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Cam kết liêm chính học thuật của sinh viên VinUniversity quy định cụ thể việc không vi phạm trong các hoạt động đánh giá nào?",
+        "split": "dev",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.34,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p34_c001",
+            "score": 34.1889,
+            "page": 34,
+            "text_snippet": "34\n\nCHƯƠNG VI\nLIÊM CHÍNH TRONG HỌC THUẬT\n\n1. Liêm chính trong học thuật là một phần quan trọng của giáo dục đại học để\ns"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p27_c002",
+            "score": 21.7672,
+            "page": 27,
+            "text_snippet": "Điều 24. Nguyên tắc chung\n1. Giảng viên dạy học phần có đặc quyền duy nhất trong việc chấm điểm cho\nsinh viên và không c"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p34_c002",
+            "score": 21.5266,
+            "page": 34,
+            "text_snippet": "Chính sách Liêm chính trong Học thuật của Trường mô tả chi tiết những\nmong đợi từ tất cả sinh viên, giảng viên và nhân v"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      }
+    ]
+  },
+  "test": {
+    "method": "Lexical Retrieval (BM25)",
+    "split": "test",
+    "n": 5,
+    "hit1": 5,
+    "hit1_rate": 1.0,
+    "hit3": 5,
+    "hit3_rate": 1.0,
+    "context_evidence_rate": 0.2,
+    "context_hits": 1,
+    "median_latency_ms": 0.42,
+    "mean_latency_ms": 0.44,
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Thời gian tối đa được phép để hoàn thành khóa học đối với chương trình đại học từ 4 đến 5 năm tại VinUniversity được tính như thế nào?",
+        "split": "test",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.42,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p12_c001",
+            "score": 21.9235,
+            "page": 12,
+            "text_snippet": "12\n\ncho từng năm học, từng học kỳ. Phòng Quản lý Đào tạo chịu trách nhiệm xây dựng\nlịch học chung cho từng năm học. 2. T"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p21_c002",
+            "score": 19.9126,
+            "page": 21,
+            "text_snippet": "d) Thời gian tối đa được phép học đối với sinh viên học cùng lúc hai chương\ntrình là thời gian tối đa quy định cho chươn"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p33_c002",
+            "score": 18.5857,
+            "page": 33,
+            "text_snippet": "Sinh viên còn nợ chứng chỉ giáo dục quốc phòng hoặc chưa hoàn thành học\nphần giáo dục thể chất, nhưng đã hết thời gian t"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p21_c002"
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Theo Chương 2 về tổ chức đào tạo, sinh viên muốn xin nghỉ học tạm thời vì lý do cá nhân hoặc gia cảnh khó khăn cần đáp ứng điều kiện gì về thời gian đã học tại trường?",
+        "split": "test",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.6,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p17_c001",
+            "score": 42.2048,
+            "page": 17,
+            "text_snippet": "17\n\nb) Được cấp có Thẩm quyền cử đại diện cho Quốc gia tham gia các cuộc thi, giải\nđấu quốc tế; c) Bị ốm hoặc cấp cứu y "
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p16_c003",
+            "score": 30.4184,
+            "page": 16,
+            "text_snippet": "Sinh viên được quyền đăng ký học lại để cải thiện điểm trung bình tích lũy. Sau lần học đầu, sinh viên chỉ được học lại "
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p17_c002",
+            "score": 25.3113,
+            "page": 17,
+            "text_snippet": "Để bảo lưu kết quả học, sinh viên phải chuẩn bị đơn cũng như các giấy tờ minh\nchứng cần thiết và được sự cho phép của cố"
+          }
+        ],
+        "context_ids": []
+      },
+      {
+        "id": "q18",
+        "question": "Trong trường hợp nào về xung đột lịch thi mà sinh viên sẽ được nhà trường xem xét tổ chức thêm một kỳ thi phụ?",
+        "split": "test",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.35,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p26_c001",
+            "score": 34.8658,
+            "page": 26,
+            "text_snippet": "26\n\n2. Lịch thi kết thúc học phần của các môn học có thi cuối kỳ sẽ được Phòng Quản\nlý Đào tạo sắp xếp để tránh các xung"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p25_c002",
+            "score": 27.2509,
+            "page": 25,
+            "text_snippet": "– Đối với các hoạt động ngoại khóa và ngoại khóa được Đại học chấp thuận,\ncũng cần phải có tài liệu xác minh. Học sinh n"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p26_c004",
+            "score": 21.6609,
+            "page": 26,
+            "text_snippet": "Trong trường hợp hai giảng viên chấm thi không thống nhất về điểm thì điểm số cuối\ncùng của sinh viên sẽ là điểm trung b"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p26_c004"
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Để được xét và công nhận tốt nghiệp đại học, điểm trung bình chung tích lũy (CGPA) toàn khóa học tối thiểu sinh viên phải đạt được là bao nhiêu?",
+        "split": "test",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": false,
+        "latency_ms": 0.41,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p32_c002",
+            "score": 30.8032,
+            "page": 32,
+            "text_snippet": "e) Điểm trung bình tích lũy của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên; f) Cho đến thời điểm xét tốt nghiệp kh"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p10_c002",
+            "score": 26.0153,
+            "page": 10,
+            "text_snippet": "Số tín chỉ tích lũy là số tín chỉ của những học phần có điểm đạt từ D- trở lên,\ntính từ đầu khóa học, kể cả các học phần"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p19_c003",
+            "score": 25.0318,
+            "page": 19,
+            "text_snippet": "Thành tích này sẽ được ghi vào bảng điểm của sinh viên. 2. Tốt nghiệp loại Xuất sắc: Sinh viên tốt nghiệp loại xuất sắc "
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p10_c002"
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ của Trường Đại học VinUniversity được chính thức áp dụng bắt đầu từ khóa tuyển sinh năm nào?",
+        "split": "test",
+        "filters": null,
+        "hit1": true,
+        "hit3": true,
+        "context_hit": true,
+        "latency_ms": 0.44,
+        "top_results": [
+          {
+            "rank": 1,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p35_c001",
+            "score": 38.3064,
+            "page": 35,
+            "text_snippet": "35\n\nCHƯƠNG VII\nTỔ CHỨC THỰC HIỆN\n\nĐiều 30. Tổ chức thực hiện\n1. Quy chế đào tạo có thể được sửa đổi để phù hợp các quy đ"
+          },
+          {
+            "rank": 2,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p7_c001",
+            "score": 36.6487,
+            "page": 7,
+            "text_snippet": "7\n\nCHƯƠNG I\nNHỮNG QUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh và đối tượng áp dụng\nQuy chế này quy định cụ thể về tổ chức"
+          },
+          {
+            "rank": 3,
+            "id": "quy_che_dao_tao_vinuni_2024_stratC_p12_c002",
+            "score": 32.2541,
+            "page": 12,
+            "text_snippet": "Sinh viên nhập học phải nộp đầy đủ giấy tờ theo quy định của Quy chế tuyển\nsinh đại học hệ chính quy hiện hành của Trườn"
+          }
+        ],
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p35_c001"
+        ]
+      }
+    ]
+  }
+}

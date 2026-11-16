@@ -1,0 +1,294 @@
+[
+  {
+    "query_id": "q16",
+    "status": "abstain",
+    "question": "Thời gian tối đa được phép để hoàn thành khóa học đối với chương trình đại học từ 4 đến 5 năm tại VinUniversity được tính như thế nào?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "thời gian tối đa hoàn thành khóa học đại học VinUniversity",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p5_c001"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "thời gian tối đa hoàn thành chương trình đại học",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p5_c001"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "thời gian tối đa hoàn thành khóa học đại học VinUniversity",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p5_c001"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 51235.85
+  },
+  {
+    "query_id": "q17",
+    "status": "abstain",
+    "question": "Theo Chương 2 về tổ chức đào tạo, sinh viên muốn xin nghỉ học tạm thời vì lý do cá nhân hoặc gia cảnh khó khăn cần đáp ứng điều kiện gì về thời gian đã học tại trường?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "Chương 2 tổ chức đào tạo nghỉ học tạm thời điều kiện thời gian đã học cá nhân gia cảnh khó khăn",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p17_c003",
+          "quy_che_dao_tao_vinuni_2024_stratC_p11_c001"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "nghỉ học tạm thời xin nghỉ học cá nhân gia cảnh khó khăn điều kiện thời gian đã học",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p17_c003",
+          "quy_che_dao_tao_vinuni_2024_stratC_p11_c001"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "nghỉ học tạm thời điều kiện thời gian đã học",
+        "filters": {
+          "section": "chuong_2"
+        },
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p17_c003",
+          "quy_che_dao_tao_vinuni_2024_stratC_p11_c001"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 41172.12
+  },
+  {
+    "query_id": "q18",
+    "status": "abstain",
+    "question": "Trong trường hợp nào về xung đột lịch thi mà sinh viên sẽ được nhà trường xem xét tổ chức thêm một kỳ thi phụ?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "xung đột lịch thi kỳ thi phụ",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p25_c004"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "xung đột lịch thi kỳ thi phụ",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p25_c004"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "xung đột lịch thi",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p25_c004"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 48823.18
+  },
+  {
+    "query_id": "q19",
+    "status": "abstain",
+    "question": "Để được xét và công nhận tốt nghiệp đại học, điểm trung bình chung tích lũy (CGPA) toàn khóa học tối thiểu sinh viên phải đạt được là bao nhiêu?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "điểm trung bình chung tích lũy (CGPA) tối thiểu tốt nghiệp",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p30_c004"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "điểm trung bình tốt nghiệp",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p30_c004"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "điểm CGPA tối thiểu để được tốt nghiệp",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p30_c004"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 57694.35
+  },
+  {
+    "query_id": "q20",
+    "status": "answered",
+    "question": "Quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ của Trường Đại học VinUniversity được chính thức áp dụng bắt đầu từ khóa tuyển sinh năm nào?",
+    "answer": "Quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ của Trường Đại học VinUniversity được chính thức áp dụng bắt đầu từ khóa tuyển sinh năm 2020 [quy_che_dao_tao_vinuni_2024_stratC_p35_c001].",
+    "citations": [
+      "quy_che_dao_tao_vinuni_2024_stratC_p35_c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ VinUniversity khóa tuyển sinh năm nào",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p35_c001"
+        ]
+      },
+      {
+        "event": "answered"
+      }
+    ],
+    "elapsed_ms": 20368.22
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "status": "abstain",
+    "question": "Quy định về thời gian đóng mở cửa cổng chính và giờ giới nghiêm ban đêm của ký túc xá VinUniversity là mấy giờ?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "giờ giới nghiêm ban đêm ký túc xá VinUniversity",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "quy định ký túc xá VinUniversity thời gian đóng mở cổng chính giờ giới nghiêm ban đêm",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "giờ giới nghiêm ban đêm ký túc xá VinUniversity",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 52345.51
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "status": "abstain",
+    "question": "Mức học bổng toàn phần dành cho sinh viên diện tài năng xuất sắc của VinUniversity bao gồm bao nhiêu tiền trợ cấp chi tiêu hàng tháng?",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "turn": 1,
+        "query": "học bổng toàn phần sinh viên tài năng xuất sắc VinUniversity trợ cấp chi tiêu hàng tháng",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 2,
+        "query": "học bổng toàn phần sinh viên tài năng xuất sắc VinUniversity trợ cấp chi tiêu hàng tháng",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search",
+        "turn": 3,
+        "query": "học bổng toàn phần VinUniversity sinh viên tài năng xuất sắc mức trợ cấp chi tiêu hàng tháng",
+        "filters": null,
+        "retrieved_count": 3,
+        "context_ids": [
+          "quy_che_dao_tao_vinuni_2024_stratC_p34_c002"
+        ]
+      },
+      {
+        "event": "search_limit_reached"
+      }
+    ],
+    "elapsed_ms": 47701.3
+  }
+]

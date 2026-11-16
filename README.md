@@ -30,4 +30,48 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
-Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/2A202603979_VuHuyHieu.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+---
+
+## Hướng dẫn Tái lập (Reproducibility Guide)
+
+### 1. Chuẩn bị môi trường
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+# Điền GOOGLE_API_KEY và OPENAI_API_KEY vào .env
+```
+
+### 2. Kiểm thử Unit Tests
+```bash
+python3 -m unittest discover tests -v
+# 23/23 tests pass
+```
+
+### 3. Tái lập Thử nghiệm Retrieval & Tối ưu trên Dev (Giai đoạn 4)
+```bash
+python3 src/run_stage4_experiments.py
+# Sinh ra kết quả tại results/stage4_dev_comparison.json và results/stage4_error_analysis.json
+```
+
+### 4. Tái lập Đánh giá Agent trên Test set (Giai đoạn 5)
+```bash
+python3 src/run_stage5_test_eval.py
+# Sinh ra trace tại results/test_traces_baseline.json và results/test_traces_selected.json
+```
+
+### 5. Tổng hợp Báo cáo Metrics chuẩn
+```bash
+python3 starter/agent_metrics.py \
+  --cases data/agent_cases.json \
+  --traces results/test_traces_selected.json \
+  --reviews results/test_reviews_selected.json \
+  --split test \
+  --output results/summary_test.json
+```
+
+Chi tiết toàn bộ số liệu và phân tích: xem tại [Báo cáo cá nhân](report/individual/2A202603979_VuHuyHieu.md).
+

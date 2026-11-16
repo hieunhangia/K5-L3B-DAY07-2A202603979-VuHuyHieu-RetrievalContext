@@ -1,0 +1,174 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo quy định của VinUniversity, trường hợp nào sinh viên hoàn thành hai chương trình chuyên ngành nhưng không được cấp bằng kép?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Ngôn ngữ chính thức được sử dụng trong giảng dạy và đánh giá tại VinUniversity là gì?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Để nắm vững kiến thức của một tín chỉ lý thuyết hoặc thực hành, sinh viên cần bỏ ra bao nhiêu thời gian tự học cá nhân?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Thời gian thiết kế tiêu chuẩn của chương trình đại học 4 năm và đại học 6 năm yêu cầu khối lượng tối thiểu bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Tổng số tín chỉ tối đa mà sinh viên được phép rút khỏi hồ sơ trong toàn bộ khóa học là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Khi sinh viên không đạt (bị điểm F) ở một môn học bắt buộc thì nhà trường xử lý như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Trong Chương 2 về tổ chức đào tạo, sinh viên cần đáp ứng những tiêu chuẩn cụ thể nào để được ghi tên vào Danh sách khen thưởng của Viện trưởng vào cuối học kỳ chính?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Theo Chương 2 về tổ chức đào tạo, thời điểm sớm nhất mà sinh viên đại học được phép đăng ký học chương trình thứ hai (song bằng) là khi nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Hình thức đánh giá trực tuyến của một học phần được đóng góp tối đa bao nhiêu phần trăm vào tổng điểm trọng số?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Sau khi kết thúc học kỳ, nhà trường sẽ tổ chức kỳ thi chính để thi kết thúc học phần trong khoảng thời gian bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Theo thang điểm chữ tại VinUniversity, khoảng điểm nào được coi là điểm đỗ và điểm nào bị coi là trượt?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Sinh viên nhận điểm I (chưa hoàn thành môn học) có tối đa bao nhiêu thời gian để chuyển đổi sang điểm chính thức trước khi bị điểm F?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Thời hạn để sinh viên gửi phản ánh hoặc yêu cầu phúc tra điểm số sau khi có kết quả chính thức trên Canvas là bao lâu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Sinh viên có kết quả học tập toàn khóa đạt loại Xuất sắc hoặc Giỏi sẽ bị hạ một bậc tốt nghiệp nếu khối lượng học phần bị học lại, thi lại vượt quá mức tỷ lệ nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Cam kết liêm chính học thuật của sinh viên VinUniversity quy định cụ thể việc không vi phạm trong các hoạt động đánh giá nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Thời gian tối đa được phép để hoàn thành khóa học đối với chương trình đại học từ 4 đến 5 năm tại VinUniversity được tính như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Theo Chương 2 về tổ chức đào tạo, sinh viên muốn xin nghỉ học tạm thời vì lý do cá nhân hoặc gia cảnh khó khăn cần đáp ứng điều kiện gì về thời gian đã học tại trường?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong trường hợp nào về xung đột lịch thi mà sinh viên sẽ được nhà trường xem xét tổ chức thêm một kỳ thi phụ?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Để được xét và công nhận tốt nghiệp đại học, điểm trung bình chung tích lũy (CGPA) toàn khóa học tối thiểu sinh viên phải đạt được là bao nhiêu?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ của Trường Đại học VinUniversity được chính thức áp dụng bắt đầu từ khóa tuyển sinh năm nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q_unans_dev_01",
+    "split": "dev",
+    "question": "Mức phí gửi xe máy và ô tô hàng tháng của sinh viên trong khuôn viên ký túc xá VinUniversity được quy định là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế chỉ điều chỉnh tổ chức đào tạo, thi cử và tốt nghiệp, hoàn toàn không có thông tin hay biểu phí dịch vụ trông giữ xe hoặc bãi đỗ xe."
+  },
+  {
+    "id": "q_unans_dev_02",
+    "split": "dev",
+    "question": "Sinh viên hoàn thành chương trình liên kết trao đổi quốc tế được nhà trường hỗ trợ sinh hoạt phí tối đa bao nhiêu USD mỗi tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Văn bản áp dụng chung cho sinh viên trao đổi tại Điều 1 nhưng không có bất kỳ điều khoản nào quy định mức tài trợ sinh hoạt phí hay số tiền USD cho sinh viên đi trao đổi."
+  },
+  {
+    "id": "q_unans_test_01",
+    "split": "test",
+    "question": "Quy định về thời gian đóng mở cửa cổng chính và giờ giới nghiêm ban đêm của ký túc xá VinUniversity là mấy giờ?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế đào tạo chỉ điều chỉnh học vụ và giảng dạy, không chứa quy chế quản lý nội trú hay giờ giới nghiêm ra vào cổng ký túc xá."
+  },
+  {
+    "id": "q_unans_test_02",
+    "split": "test",
+    "question": "Mức học bổng toàn phần dành cho sinh viên diện tài năng xuất sắc của VinUniversity bao gồm bao nhiêu tiền trợ cấp chi tiêu hàng tháng?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Văn bản chỉ quy định tiêu chuẩn xếp Danh sách khen thưởng Viện trưởng (Dean List) ở Điều 18, không quy định chính sách học bổng tài năng tuyển sinh hay tiền trợ cấp chi tiêu hàng tháng."
+  }
+]

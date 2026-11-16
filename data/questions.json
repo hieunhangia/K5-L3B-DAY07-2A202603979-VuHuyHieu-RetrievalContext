@@ -1,0 +1,328 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Theo quy định của VinUniversity, trường hợp nào sinh viên hoàn thành hai chương trình chuyên ngành nhưng không được cấp bằng kép?",
+    "answerable": true,
+    "expected_answer": "Nếu sinh viên hoàn thành yêu cầu của hai chương trình chuyên ngành, nhưng lại chỉ hoàn thành yêu cầu một bằng thì sẽ không được cấp bằng kép.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 4,
+        "evidence": "Nếu sinh viên hoàn thành yêu cầu của hai chương trình\nchuyên ngành, nhưng lại chỉ hoàn thành yêu cầu một bằng thì sẽ không\nđược cấp bằng kép."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Ngôn ngữ chính thức được sử dụng trong giảng dạy và đánh giá tại VinUniversity là gì?",
+    "answerable": true,
+    "expected_answer": "Tiếng Anh là ngôn ngữ giảng dạy và đánh giá tại Trường đối với các hình thức học lý thuyết, thực hành và tự học bắt buộc.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 7,
+        "evidence": "Tiếng Anh sẽ là ngôn ngữ giảng dạy và đánh giá tại Trường đối với các hình\nthức học lý thuyết, thực hành và tự học bắt buộc"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Để nắm vững kiến thức của một tín chỉ lý thuyết hoặc thực hành, sinh viên cần bỏ ra bao nhiêu thời gian tự học cá nhân?",
+    "answerable": true,
+    "expected_answer": "Sinh viên cần phải dành ít nhất 30 giờ tự học và chuẩn bị cá nhân cho mỗi tín chỉ lý thuyết hoặc thực hành.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 9,
+        "evidence": "để tiếp thu được\nmột tín chỉ sinh viên cần phải dành ít nhất 30 giờ tự học, chuẩn bị cá nhân."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Thời gian thiết kế tiêu chuẩn của chương trình đại học 4 năm và đại học 6 năm yêu cầu khối lượng tối thiểu bao nhiêu tín chỉ?",
+    "answerable": true,
+    "expected_answer": "Thời gian thiết kế của mỗi chương trình không dưới 120 tín chỉ đối với chương trình đại học 4 năm và không dưới 180 tín chỉ đối với chương trình đại học 6 năm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 11,
+        "evidence": "Thời gian thiết kế của mỗi chương trình không dưới 180 tín chỉ\nđối với chương trình đại học 6 năm và 120 tín chỉ đối với chương trình đại học 4 năm."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Tổng số tín chỉ tối đa mà sinh viên được phép rút khỏi hồ sơ trong toàn bộ khóa học là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Chính sách giới hạn rút hồ sơ cho phép sinh viên rút tối đa 18 tín chỉ trong toàn bộ chương trình học; khi đạt đến giới hạn sinh viên không thể rút thêm.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 15,
+        "evidence": "Chính sách giới hạn rút hồ sơ cho phép sinh viên rút tối đa 18 tín chỉ trong\ntoàn bộ chương trình học. Khi đạt đến giới hạn, sinh viên không thể rút tiền được\nnữa và phải tiếp tục đăng ký."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Khi sinh viên không đạt (bị điểm F) ở một môn học bắt buộc thì nhà trường xử lý như thế nào?",
+    "answerable": true,
+    "expected_answer": "Sinh viên bị điểm F ở học phần bắt buộc sẽ phải học lại học phần đó hoặc tham gia một học phần tương đương theo quy định trong chương trình.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 16,
+        "evidence": "Sinh viên có học phần bắt buộc bị điểm F sẽ phải học lại học phần đó hoặc\ntham gia một học phần tương đương theo quy định trong chương trình giảng dạy"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Trong Chương 2 về tổ chức đào tạo, sinh viên cần đáp ứng những tiêu chuẩn cụ thể nào để được ghi tên vào Danh sách khen thưởng của Viện trưởng vào cuối học kỳ chính?",
+    "answerable": true,
+    "expected_answer": "Sinh viên phải đạt điểm trung bình học kỳ của ít nhất 12 tín chỉ từ 3,60 trở lên, không trượt bất kỳ học phần nào đã đăng ký và không có lỗi vi phạm nghiêm trọng.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 19,
+        "evidence": "Danh sách khen thưởng của Viện trưởng: Sinh viên sẽ được xếp vào Danh\nsách khen thưởng của Viện trưởng vào cuối học kỳ chính nếu có thành tích đạt tiêu\nchuẩn sau: (i) Điểm trung bình học kỳ của ít nhất 12 tín chỉ đạt 3,60 (Giỏi) trở lên, và\nkhông trượt bất kỳ học phần nào đã đăng ký nào (ii) không có lỗi vi phạm nghiêm\ntrọng."
+      }
+    ],
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Theo Chương 2 về tổ chức đào tạo, thời điểm sớm nhất mà sinh viên đại học được phép đăng ký học chương trình thứ hai (song bằng) là khi nào?",
+    "answerable": true,
+    "expected_answer": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp trình độ năm thứ hai của chương trình thứ nhất.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 20,
+        "evidence": "Sinh viên được đăng ký học chương trình thứ hai sớm nhất khi đã được xếp\ntrình độ năm thứ hai của chương trình thứ nhất."
+      }
+    ],
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Hình thức đánh giá trực tuyến của một học phần được đóng góp tối đa bao nhiêu phần trăm vào tổng điểm trọng số?",
+    "answerable": true,
+    "expected_answer": "Đánh giá trực tuyến đóng góp không quá 50% vào tổng điểm trọng số của học phần đó nếu đảm bảo trung thực, công bằng và khách quan.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 23,
+        "evidence": "Đánh giá trực tuyến có\nthể được thực hiện nếu đảm bảo trung thực, công bằng và khách quan như đánh giá trực\ntiếp và sẽ đóng góp không quá 50% vào tổng điểm trọng số của học phần đó."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Sau khi kết thúc học kỳ, nhà trường sẽ tổ chức kỳ thi chính để thi kết thúc học phần trong khoảng thời gian bao lâu?",
+    "answerable": true,
+    "expected_answer": "Sau khi kết thúc học tập không quá 2 tuần, Trường sẽ tổ chức một kỳ thi chính để thi kết thúc học phần.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 26,
+        "evidence": "Sau khi kết thúc học tập không quá 2\ntuần, Trường sẽ tổ chức một kỳ thi chính để thi kết thúc học phần."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Theo thang điểm chữ tại VinUniversity, khoảng điểm nào được coi là điểm đỗ và điểm nào bị coi là trượt?",
+    "answerable": true,
+    "expected_answer": "Điểm đỗ là từ A đến D-; điểm trượt là F.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 27,
+        "evidence": "Điểm đỗ là từ\nA đến D-; điểm trượt là F:"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Sinh viên nhận điểm I (chưa hoàn thành môn học) có tối đa bao nhiêu thời gian để chuyển đổi sang điểm chính thức trước khi bị điểm F?",
+    "answerable": true,
+    "expected_answer": "Điểm chưa hoàn thành phải được chuyển đổi thành điểm thông thường trong vòng 6 tháng kể từ khi được xác định, nếu không hoàn thành sẽ nhận điểm F.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 28,
+        "evidence": "Điểm chưa hoàn thành phải được chuyển đổi thành điểm\nthông thường trong vòng sáu tháng kể từ khi được xác định."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Thời hạn để sinh viên gửi phản ánh hoặc yêu cầu phúc tra điểm số sau khi có kết quả chính thức trên Canvas là bao lâu?",
+    "answerable": true,
+    "expected_answer": "Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng 5 ngày làm việc sau khi có kết quả điểm chính thức trên Canvas.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 31,
+        "evidence": "Sinh viên cần phản ánh cho Giảng viên và Phòng Quản lý Đào tạo trong vòng\nnăm (05) ngày làm việc sau khi có kết quả điểm chính thức trên Canvas nếu nhận thấy\nbất kỳ lỗi/sai sót nào."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Sinh viên có kết quả học tập toàn khóa đạt loại Xuất sắc hoặc Giỏi sẽ bị hạ một bậc tốt nghiệp nếu khối lượng học phần bị học lại, thi lại vượt quá mức tỷ lệ nào?",
+    "answerable": true,
+    "expected_answer": "Sẽ bị hạ một bậc nếu khối lượng các học phần phải học lại, thi lại do bị trượt vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 33,
+        "evidence": "Có khối lượng của các học phần phải học lại, thi lại vượt quá 5% so với tổng\nsố tín chỉ quy định cho toàn chương trình. Các khóa học được học lại sẽ chỉ bao gồm\ncác khóa học bị trượt và sẽ không được tính cho các khóa học được học lại để cải thiện\nđiểm số."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Cam kết liêm chính học thuật của sinh viên VinUniversity quy định cụ thể việc không vi phạm trong các hoạt động đánh giá nào?",
+    "answerable": true,
+    "expected_answer": "Sinh viên cam kết không vi phạm trong bất kỳ quy định nào liên quan đến điểm số, ví dụ như khi làm bài kiểm tra, làm bài tập hoặc làm báo cáo.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 34,
+        "evidence": "sinh viên đồng ý sẽ không vi phạm trong bất kỳ quy định nào liên quan đến\nđiểm số, ví dụ như khi làm bài kiểm tra, làm bài tập hoặc làm báo cáo. Đồng thời, sinh\nviên cũng chủ động ngăn chặn các hành vi vi phạm lời Tuyên thệ."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Thời gian tối đa được phép để hoàn thành khóa học đối với chương trình đại học từ 4 đến 5 năm tại VinUniversity được tính như thế nào?",
+    "answerable": true,
+    "expected_answer": "Thời gian tối đa bao gồm thời gian quy định tiêu chuẩn của khóa học cộng thêm tối đa 4 học kỳ chính.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 12,
+        "evidence": "Thời gian tối đa hoàn thành khóa học bao gồm thời gian quy định tiêu chuẩn\ncủa khóa học cộng với 4 học kỳ chính (đối với các khóa 4 đến 5 năm)"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Theo Chương 2 về tổ chức đào tạo, sinh viên muốn xin nghỉ học tạm thời vì lý do cá nhân hoặc gia cảnh khó khăn cần đáp ứng điều kiện gì về thời gian đã học tại trường?",
+    "answerable": true,
+    "expected_answer": "Sinh viên phải học ít nhất một học kỳ ở trường, không rơi vào các trường hợp bị buộc thôi học và thời gian nghỉ này được tính vào thời gian học chính thức.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 17,
+        "evidence": "Vì lý do cá nhân hoặc gia cảnh khó khăn. Trường hợp này, sinh viên phải học\nít nhất một học kỳ ở trường, không rơi vào các trường hợp bị buộc thôi học"
+      }
+    ],
+    "filter": {
+      "section": "chuong_2"
+    }
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Trong trường hợp nào về xung đột lịch thi mà sinh viên sẽ được nhà trường xem xét tổ chức thêm một kỳ thi phụ?",
+    "answerable": true,
+    "expected_answer": "Khi sinh viên không tham dự kỳ thi chính, có nhiều hơn 2 học phần thi liên tục trong vòng 24 giờ, hoặc có học phần bị điểm F ở kỳ thi chính.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 26,
+        "evidence": "Trường có thể tổ chức thêm một kỳ thi phụ dành cho những sinh viên không\ntham dự kỳ thi chính, có nhiều hơn hai học phần thi liên tục trong vòng 24 giờ hoặc có\nhọc phần bị điểm F ở kỳ thi chính."
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Để được xét và công nhận tốt nghiệp đại học, điểm trung bình chung tích lũy (CGPA) toàn khóa học tối thiểu sinh viên phải đạt được là bao nhiêu?",
+    "answerable": true,
+    "expected_answer": "Điểm trung bình tích lũy của toàn khóa học phải đạt tối thiểu từ 2,00/4,00 trở lên.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 32,
+        "evidence": "e) Điểm trung bình tích lũy của toàn khóa học đạt tối thiểu từ 2,00/4,00 trở lên;"
+      }
+    ],
+    "filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Quy chế đào tạo đại học hệ chính quy theo hệ thống tín chỉ của Trường Đại học VinUniversity được chính thức áp dụng bắt đầu từ khóa tuyển sinh năm nào?",
+    "answerable": true,
+    "expected_answer": "Quy chế được áp dụng chính thức đối với các khóa học tuyển sinh từ năm 2020.",
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quy_che_dao_tao_vinuni_2024",
+        "page": 35,
+        "evidence": "áp dụng đối với các khóa học tuyển sinh từ năm 2020."
+      }
+    ],
+    "filter": null
+  }
+]

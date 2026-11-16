@@ -1,0 +1,62 @@
+[
+  {
+    "config_name": "1. Baseline Dense (budget=800)",
+    "budget": 800,
+    "hit1": "10/15 (66.7%)",
+    "hit1_rate": 0.6667,
+    "hit3": "15/15 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_rate": "1/15 (6.7%)",
+    "context_evidence_rate": 0.0667,
+    "median_latency_ms": 0.1,
+    "mean_latency_ms": 0.11
+  },
+  {
+    "config_name": "2. Baseline BM25 (budget=800)",
+    "budget": 800,
+    "hit1": "12/15 (80.0%)",
+    "hit1_rate": 0.8,
+    "hit3": "15/15 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_rate": "1/15 (6.7%)",
+    "context_evidence_rate": 0.0667,
+    "median_latency_ms": 0.43,
+    "mean_latency_ms": 0.44
+  },
+  {
+    "config_name": "3. Baseline Hybrid (RRF k=60, budget=800)",
+    "budget": 800,
+    "hit1": "12/15 (80.0%)",
+    "hit1_rate": 0.8,
+    "hit3": "15/15 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_rate": "1/15 (6.7%)",
+    "context_evidence_rate": 0.0667,
+    "median_latency_ms": 0.57,
+    "mean_latency_ms": 0.58
+  },
+  {
+    "config_name": "4. Cải thiện 1: Budget 2000 (Hybrid k=60)",
+    "budget": 2000,
+    "hit1": "12/15 (80.0%)",
+    "hit1_rate": 0.8,
+    "hit3": "15/15 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_rate": "15/15 (100.0%)",
+    "context_evidence_rate": 1.0,
+    "median_latency_ms": 0.56,
+    "mean_latency_ms": 0.57
+  },
+  {
+    "config_name": "5. Cải thiện 2: Weighted RRF + Budget 2000 (k=20, w_bm25=0.7, w_dense=0.3)",
+    "budget": 2000,
+    "hit1": "13/15 (86.7%)",
+    "hit1_rate": 0.8667,
+    "hit3": "15/15 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_rate": "15/15 (100.0%)",
+    "context_evidence_rate": 1.0,
+    "median_latency_ms": 0.56,
+    "mean_latency_ms": 0.57
+  }
+]

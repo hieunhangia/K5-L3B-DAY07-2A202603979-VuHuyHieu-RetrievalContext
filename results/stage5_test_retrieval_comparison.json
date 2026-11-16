@@ -1,0 +1,38 @@
+[
+  {
+    "config_name": "Baseline Dense (budget=800)",
+    "n": 5,
+    "budget": 800,
+    "hit1": "3/5 (60.0%)",
+    "hit1_rate": 0.6,
+    "hit3": "5/5 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_evidence_rate": "1/5 (20.0%)",
+    "context_rate": 0.2,
+    "median_latency_ms": 0.12
+  },
+  {
+    "config_name": "Baseline BM25 (budget=800)",
+    "n": 5,
+    "budget": 800,
+    "hit1": "5/5 (100.0%)",
+    "hit1_rate": 1.0,
+    "hit3": "5/5 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_evidence_rate": "1/5 (20.0%)",
+    "context_rate": 0.2,
+    "median_latency_ms": 0.48
+  },
+  {
+    "config_name": "Selected Config: Weighted Hybrid (budget=2000)",
+    "n": 5,
+    "budget": 2000,
+    "hit1": "5/5 (100.0%)",
+    "hit1_rate": 1.0,
+    "hit3": "5/5 (100.0%)",
+    "hit3_rate": 1.0,
+    "context_evidence_rate": "5/5 (100.0%)",
+    "context_rate": 1.0,
+    "median_latency_ms": 0.63
+  }
+]

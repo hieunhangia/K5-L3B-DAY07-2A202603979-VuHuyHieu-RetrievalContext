@@ -1,0 +1,35 @@
+[
+  {
+    "method": "Dense Retrieval (Google Gemini)",
+    "dev_hit1": "10/15 (66.7%)",
+    "dev_hit3": "15/15 (100.0%)",
+    "dev_context_rate": "1/15 (6.7%)",
+    "dev_median_ms": 0.1,
+    "test_hit1": "3/5 (60.0%),",
+    "test_hit3": "5/5 (100.0%)",
+    "test_context_rate": "1/5 (20.0%)",
+    "test_median_ms": 0.09
+  },
+  {
+    "method": "Lexical Retrieval (BM25)",
+    "dev_hit1": "12/15 (80.0%)",
+    "dev_hit3": "15/15 (100.0%)",
+    "dev_context_rate": "1/15 (6.7%)",
+    "dev_median_ms": 0.36,
+    "test_hit1": "5/5 (100.0%),",
+    "test_hit3": "5/5 (100.0%)",
+    "test_context_rate": "1/5 (20.0%)",
+    "test_median_ms": 0.42
+  },
+  {
+    "method": "Hybrid Retrieval (Dense + BM25 via RRF)",
+    "dev_hit1": "12/15 (80.0%)",
+    "dev_hit3": "15/15 (100.0%)",
+    "dev_context_rate": "1/15 (6.7%)",
+    "dev_median_ms": 0.52,
+    "test_hit1": "4/5 (80.0%),",
+    "test_hit3": "5/5 (100.0%)",
+    "test_context_rate": "1/5 (20.0%)",
+    "test_median_ms": 0.6
+  }
+]

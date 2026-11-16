@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Thời gian tối đa bằng thời gian tiêu chuẩn + tối đa 4 học kỳ chính. Chunk p12_c001 hỗ trợ hoàn hảo."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Học ít nhất một học kỳ ở trường, không bị buộc thôi học. Chunk p17_c001 hỗ trợ hoàn hảo."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Xung đột lịch thi khi có nhiều hơn 2 học phần thi trong 24 giờ. Chunk p26_c001 hỗ trợ hoàn hảo."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Agent từ chối do LLM query không kéo được chunk 2 trang 32 vào context. Đạt 0 điểm vì là câu có đáp án."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Áp dụng từ khóa tuyển sinh năm 2020. Chunk p35_c001 hỗ trợ hoàn hảo."
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Quy chế không quy định giờ giới nghiêm KTX. Agent từ chối dứt khoát và chính xác."
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Quy chế không quy định mức trợ cấp học bổng tài năng. Agent từ chối dứt khoát và chính xác."
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "query_id": "q16",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Baseline budget 800 làm rơi chunk evidence, agent từ chối nhầm."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Baseline budget 800 làm rơi chunk evidence, agent từ chối nhầm."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Baseline budget 800 làm rơi chunk evidence, agent từ chối nhầm."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 0,
+    "citation_support": [],
+    "note": "Baseline budget 800 làm rơi chunk evidence, agent từ chối nhầm."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "note": "Chunk ngắn nên lọt vào budget 800, trả lời đúng áp dụng từ năm 2020."
+  },
+  {
+    "query_id": "q_unans_test_01",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng câu thiếu thông tin."
+  },
+  {
+    "query_id": "q_unans_test_02",
+    "abstention_correct": true,
+    "citation_support": [],
+    "note": "Từ chối đúng câu thiếu thông tin."
+  }
+]

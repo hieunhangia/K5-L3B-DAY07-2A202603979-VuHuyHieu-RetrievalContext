@@ -1,0 +1,40 @@
+{
+  "case_1": {
+    "query_id": "q01",
+    "question": "Sinh viên cần đáp ứng điều kiện gì về tiến độ và học lực để được đăng ký học chương trình thứ hai (học cùng lúc hai chương trình)?",
+    "expected_page": 4,
+    "expected_chunk_id": "vinuni_qd_013",
+    "gold_evidence": "ngành đào tạo chính thứ nhất của chương trình thứ hai phải khác ngành đào tạo chính thứ nhất của chương trình thứ nhất; sau khi đã hoàn thành năm thứ nhất hoặc năm thứ hai của chương trình thứ nhất; tại thời điểm đăng ký, sinh viên phải đáp ứng một trong hai điều kiện sau: xếp loại học lực từ khá trở lên và đáp ứng ngưỡng bảo đảm chất lượng đầu vào của chương trình thứ hai trong năm tuyển sinh; hoặc xếp loại học lực từ trung bình và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh",
+    "dense_baseline_rank": 2,
+    "dense_rank_1_page": 21,
+    "dense_rank_1_id": "vinuni_qd_073",
+    "dense_rank_1_snippet": "Sinh viên học cùng lúc hai chương trình... được công nhận tốt nghiệp chương trình thứ hai nếu đã có quyết định công nhận tốt nghiệp chương trình thứ nhất...",
+    "bm25_rank": 1,
+    "bm25_rank_1_page": 4,
+    "bm25_rank_1_id": "vinuni_qd_013",
+    "root_cause": "Hiện tượng 'Semantic Attraction': Dense Retrieval bị hút vào trang quy định tốt nghiệp (Page 21) vì xuất hiện cụm 'học cùng lúc hai chương trình' kết hợp với ngữ cảnh đào tạo học lực, khiến cosine similarity của Page 21 (0.865) nhỉnh hơn Page 4 (0.841). Trong khi đó, BM25 bắt chính xác các từ khóa chuyên môn 'đăng ký học chương trình thứ hai', 'năm thứ nhất', 'xếp loại học lực'.",
+    "solution": "Áp dụng Weighted Hybrid RRF với trọng số BM25 = 0.70 và Dense = 0.30 (k=20). Do BM25 xếp vinuni_qd_013 ở Rank 1 và Dense xếp ở Rank 2, điểm RRF tổng hợp đạt 0.0465, vượt trội so với chunk Page 21 (chỉ đứng Rank 1 ở Dense nhưng không có trong top 10 BM25). Kết quả: vinuni_qd_013 vươn lên Rank 1, đưa Hit@1 của q01 thành True!",
+    "resolved_in_selected_config": true
+  },
+  "case_2": {
+    "query_id": "q03",
+    "question": "Theo quy định, một tín chỉ lý thuyết tương đương bao nhiêu giờ học trên lớp và bao nhiêu giờ tự học, chuẩn bị của sinh viên?",
+    "expected_page": 9,
+    "expected_chunk_id": "vinuni_qd_028",
+    "gold_evidence": "Một tín chỉ được tính tương đương 50 giờ học tập định mức của người học và được phân bổ đối với các hình thức giảng dạy như sau: a) Một tín chỉ lý thuyết tương đương 15 giờ học trên lớp và 30 giờ tự học, chuẩn bị cá nhân có hướng dẫn;",
+    "baseline_budget": 800,
+    "rank_1_chunk_id": "vinuni_qd_025",
+    "rank_1_page": 8,
+    "rank_1_char_len": 782,
+    "rank_2_chunk_id": "vinuni_qd_028",
+    "rank_2_page": 9,
+    "rank_2_char_len": 654,
+    "baseline_context_ids": [
+      "vinuni_qd_025"
+    ],
+    "baseline_context_evidence_rate": false,
+    "root_cause": "Context Budget Bottleneck: Cả Dense và BM25 đều xếp đúng vinuni_qd_028 vào Rank 2. Tuy nhiên, chunk Rank 1 (vinuni_qd_025, định nghĩa tín chỉ ở trang 8) dài 782 ký tự. Khi thêm header metadata (~80 chars), tổng độ dài đã là 862 chars, làm cạn kiệt ngân sách budget=800. Hàm pack_context() lập tức ngắt, loại bỏ chunk Rank 2. Do đó context gửi cho Agent hoàn toàn không chứa thông tin '30 giờ tự học', dẫn đến Context Evidence Rate = False và Agent không thể trả lời.",
+    "solution": "Nâng Context Budget từ 800 lên 2000 ký tự (Cải thiện 1 & Cải thiện 2). Với budget=2000, cả 2-3 chunk hàng đầu (Rank 1 và Rank 2) đều nằm gọn trong context (tổng ~1520 chars có metadata). Model nhận đủ bằng chứng ở vinuni_qd_028, trả lời chính xác '15 giờ trên lớp và 30 giờ tự học', đồng thời trích dẫn đúng [vinuni_qd_028].",
+    "resolved_in_selected_config": true
+  }
+}
